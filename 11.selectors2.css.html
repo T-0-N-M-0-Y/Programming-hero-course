@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors: div, span, combined, tag, class, special</title>
+
+    <style>
+        *{
+            text-align: center;
+        }
+        .red{
+            color: red;
+            font-size: 1.5em;
+        }
+        .green{
+            color: green;
+            font-size: 1.5em;
+        }
+        .yellow-bg{
+            background-color: yellow;
+        }
+
+        p{
+            color: red;
+        }
+
+        h2{
+            color: blueviolet;
+        }
+
+        /* Combined Selectors */
+
+        /* p, h2{
+            color: brown;
+        } */
+
+        /* Mixed Selectors */
+
+        .hot{
+            color: green;
+            font-weight: bolder;
+        }
+
+        h2.hot{
+            color: black;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <h2 class="hot">Mixed Selectors</h2>
+
+    <p>This is <span class="green">How To add CSS in  Small Elements</span></p>
+    <p>This is <span class="red">How To ass CSS in   Small Elements 2</span></p>
+
+    <div class="yellow-bg">
+        <h2>This is how to use CSS in a large amount of element</h2>
+        <p class="hot">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, dolores aliquam unde distinctio qui ad cumque aperiam officia, error molestiae vel atque, asperiores harum ut rerum vitae at consequuntur assumenda esse itaque? Vero, saepe pariatur voluptatem eos voluptatum illum sequi, laudantium delectus ex at eaque consectetur eum quaerat hic repudiandae sunt obcaecati accusantium reiciendis minus? Provident, laborum nemo! Sint, minima.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis nam dignissimos voluptatum deserunt amet illo maxime voluptatibus, provident consequatur earum architecto esse assumenda laborum, voluptate dolorem omnis laboriosam eos? Aliquid, quibusdam corrupti consequuntur ducimus explicabo tempora porro neque quos laborum!</p>
+
+        <p class="hot">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quos sed voluptatem earum minima amet corrupti impedit non quo molestiae.</p>
+    </div>
+    
+</body>
+</html>

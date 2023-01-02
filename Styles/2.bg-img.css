@@ -1,0 +1,30 @@
+header{
+    color: wheat;
+    background-color: gray;
+    text-align: center;
+    font-weight: 400;
+    width: auto;
+    height: 200px;
+    background-image: url('../Images/pexels-david-mceachan-87500.jpg');
+    /* background-size: 25%; */
+    background-size: cover;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+h3{
+    color: red;
+}
+
+p{
+    color: black
+}
+.blog{
+    background-color: aqua;
+    border: 2px solid red; 
+    border-radius: 20px;
+    margin: 5px auto 5px;
+    padding: 10px;
+}
