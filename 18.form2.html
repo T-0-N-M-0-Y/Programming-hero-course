@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html form input label fieldset legend textarea submit</title>
+
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <h3>Welcome to Form tutorial</h3>
+
+    <label for="name">Enter Your Name
+        <input id="name" type="text" placeholder="Your name">
+    </label>
+    <label for="email">Enter Your Email
+        <input id="email" type="email" placeholder="Your your email">
+    </label>
+
+    <fieldset>
+        <legend>Pick One</legend>
+        <label for="Python">
+            <input type="radio" name="language" id="Python"> Python
+        </label>
+        <label for="Java">
+            <input type="radio" name="language" id="Java"> Java
+        </label>
+        <label for="C#">
+            <input type="radio" name="language" id="C#"> C#
+        </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Choose One or More</legend>
+        <label for="HTML4">
+            <input type="checkbox" name="WEB" id="HTML4"> HTML4
+        </label>
+        <label for="HTML5">
+            <input type="checkbox" name="WEB" id="HTML5"> HTML5
+        </label>
+        <label for="CSS">
+            <input type="checkbox" name="WEB" id="CSS"> CSS
+        </label>
+        <label for="Bootstrap">
+            <input type="checkbox" name="WEB" id="Bootstrap"> Bootstrap
+        </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Special Instruction</legend>
+        <textarea name="" id="" cols="60" rows="5"></textarea>
+    </fieldset>
+
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
