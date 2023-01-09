@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>CSS Custom property and use var, calc, visibility hidden vs display none</title>
+
+    <style>
+        .box{
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+        }
+
+        #box-3{
+            color: aqua;
+            /* display: none; */
+            visibility: hidden;
+        }
+        
+        :root{
+            --primary-color: blue;
+        }
+
+        #heading-3, #heading-1{
+            border: 2px solid var(--primary-color);
+        }
+
+        #heading-2{
+            border-bottom: 2px solid var(--primary-color);
+        }
+        #heading-4{
+            background-color: var(--primary-color);
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h3>Visibity hidden vs Display None</h3>
+    
+    <div class="box" id="box-1">
+        <h3>box-1</h3>
+    </div>
+    <div class="box" id="box-2">
+        <h3>box-2</h3>
+    </div>
+    <div class="box" id="box-3">
+        <h3>box-3</h3>
+    </div>
+    <div class="box" id="box-4">
+        <h3>box-4</h3>
+    </div>
+
+    <h3>Custom property and use var</h3>
+
+    <h3 class="heading" id="heading-1">This is my Heading 1</h3>
+    <h3 class="heading" id="heading-2">This is My Heading 2</h3>
+    <h3 class="heading" id="heading-3">This is my heading 3</h3>
+    <h3 class="heading" id="heading-4">This is my heading 4</h3>
+</body>
+</html>
