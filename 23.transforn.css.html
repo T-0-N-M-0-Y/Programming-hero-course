@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform element using rotate scale translate</title>
+
+    <style>
+        .container .inner-box{
+            width: 150px;
+            height: 150px;
+            border: 2px solid khaki;
+        }
+
+        .container{
+            background-color: lightskyblue;
+        }
+
+        .inner-box{
+            background-color: brown;
+            /* transform: scale(0.75); */
+            /* transform: rotate(75deg); */
+            /* transform: scale(.75) rotate(45deg); */
+            /* transform: translate(50px) scale(.75) rotate(45deg); */
+            transform: translateY(50px) scale(.75) rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <h1>This Is How to Use Transform element using rotate scale translate</h1>
+
+    <div class="container">
+        <div class="inner-box">box-1</div>
+    </div>
+    <div class="container">
+        <div class="inner-box">box-2</div>
+    </div>
+    <div class="container">
+        <div class="inner-box">box-3</div>
+    </div>
+</body>
+</html>
