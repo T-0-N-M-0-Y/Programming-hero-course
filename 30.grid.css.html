@@ -5,8 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Grid layout template columns grid gap</title>
+
+    <style>
+        .container{
+            display: grid;
+            /* grid-template-columns: 200px 200px 200px 200px; */
+            grid-template-columns: repeat(4, 200px);
+            justify-content: space-between;
+            justify-items: center;
+        }
+        .items{
+            border: 1px solid red;
+            font-size: 2em;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>This Is Grid</h1>
+    <div class="container">
+        <div class="items">item-1</div>
+        <div class="items">item-2</div>
+        <div class="items">item-3</div>
+        <div class="items">item-4</div>
+        <div class="items">item-5</div>
+        <div class="items">item-6</div>
+        <div class="items">item-7</div>
+        <div class="items">item-8</div>
+        <div class="items">item-9</div>
+        <div class="items">item-10</div>
+        <div class="items">item-11</div>
+        <div class="items">item-12</div>
+        <div class="items">item-13</div>
+        <div class="items">item-14</div>
+        <div class="items">item-15</div>
+        <div class="items">item-16</div>
+        <div class="items">item-17</div>
+        <div class="items">item-18</div>
+        <div class="items">item-19</div>
+        <div class="items">item-20</div>
+    </div>
 </body>
 </html>
