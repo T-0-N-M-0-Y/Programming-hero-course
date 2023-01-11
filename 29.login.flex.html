@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Login Form And Flexible Nav Using Flexbox</title>
+
+    <script src="https://kit.fontawesome.com/b926dd3a23.js" crossorigin="anonymous"></script>
+
+    <style>
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            margin-right: 20px;
+        }
+
+        .container {
+            /* border: 2px solid red; */
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .login {
+            /* border: 2px solid blue; */
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+        }
+
+        .login input {
+            margin-top: 1em;
+            font-size: 1em;
+        }
+
+        .login input[type="submit"] {
+            background-color: gold;
+            color: red;
+            border: 0;
+            border-radius: 10px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href="">Home</a>
+                <a href="">Dashboard</a>
+                <a href="">Inventory</a>
+                <a href="">About</a>
+            </span>
+            <span>
+                <a href=""><i class="fa-solid fa-user"></i></a>
+                <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+            </span>
+        </nav>
+    </header>
+
+    <section class="container">
+        <form class="login">
+            <h1>login Here</h1>
+            <input type="email" name="" id="" placeholder="Enter your Email" required>
+            <input type="password" name="" id="" placeholder="Your Password" required>
+            <input type="submit" value="Login">
+        </form>
+    </section>
+
+</body>
+
+</html>
