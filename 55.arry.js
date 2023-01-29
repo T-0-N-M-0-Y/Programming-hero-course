@@ -8,12 +8,12 @@ var picnicFee = [100, 200, 2000, 1980, 2500, 1200]; //0 to 5
 var friendsNmae = ['eshan', 'ayan', 'sazzad', 'sadhin', 'tarek', 'nayeem']; //0 to 5
 
 //Output System
-console.log(friendsAge[5]);
-console.log(picnicFee[5]);
-console.log(friendsNmae[5]);
+console.log(friendsAge);
+console.log(picnicFee);
+console.log(friendsNmae);
 
 //get elements
-var elements = friendsAge[1];
+var elements = friendsAge[5];
 console.log(elements);
 
 //set elements
@@ -23,3 +23,11 @@ console.log(friendsAge);
 //Find index of an element
 var positionOfIndex = friendsAge.indexOf(29);
 console.log(positionOfIndex);
+
+// Add items in 1st elements
+friendsAge.unshift(25);
+console.log(friendsAge);
+
+// Remove items from 1st elements
+picnicFee.shift(100);
+console.log(picnicFee);
