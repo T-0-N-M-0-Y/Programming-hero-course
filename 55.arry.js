@@ -31,3 +31,11 @@ console.log(friendsAge);
 // Remove items from 1st elements
 picnicFee.shift(100);
 console.log(picnicFee);
+
+// Slice Elements 
+picnicFee.slice(2, 4);
+console.log(picnicFee);
+
+//Includes elements
+friendsNmae.includes('Tarek');
+console.log(friendsNmae);
