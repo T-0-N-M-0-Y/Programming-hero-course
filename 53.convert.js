@@ -21,8 +21,8 @@ console.log(newNumber2);
 var num1 = 0.1;
 var num2 = 0.2;
 var result = num1 + num2;
-//result = result.toFixed(1)
-//result = result.toFixed(2)
-result = result.toFixed(4)
-result = parseFloat(result)
-console.log(result);
+//result = result.toFixed(1);
+//result = result.toFixed(2);
+result = result.toFixed(4);
+var newNumber3 = parseFloat(result);
+console.log(newNumber3);
