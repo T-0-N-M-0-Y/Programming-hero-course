@@ -41,7 +41,7 @@ console.log(inputQuantity);
 
 //Long String output
 
-var friendsName = ['sajid', 'mamun', 'kamal', 'jubayer bin Rashed', 'chinku'];
+let friendsName = ['sajid', 'mamun', 'kamal', 'jubayer bin Rashed', 'chinku'];
 
 function bestFriend(friends) {
 
@@ -73,3 +73,21 @@ function bestFriend(friends) {
 
 let friendBest = bestFriend(friendsName);
 console.log(friendBest);
+
+//Positive Number
+
+var numbers = [45, 87, 89, 56, 32, -51, 25, 188];
+
+function onlyPositive(positive) {
+    let numberArray = []
+    for(var i = 0; i < positive.length; i++){
+        var number = numbers[i];
+        if(numberArray.includes(number) < 0){
+            numberArray.push(number)
+        }
+    } 
+    return numberArray;
+}
+
+let positiveNumbers = onlyPositive(numbers)
+console.log(positiveNumbers);
