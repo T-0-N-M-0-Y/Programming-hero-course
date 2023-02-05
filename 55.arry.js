@@ -5,12 +5,12 @@ var friendsAge = [15, 19, 21, 27, 29, 28]; //0 to 5
 var picnicFee = [100, 200, 2000, 1980, 2500, 1200]; //0 to 5
 
 //String
-var friendsNmae = ['eshan', 'ayan', 'sazzad', 'sadhin', 'tarek', 'nayeem']; //0 to 5
+var friendsName = ['eshan', 'ayan', 'sazzad', 'sadhin', 'tarek', 'nayeem']; //0 to 5
 
 //Output System
 console.log(friendsAge);
 console.log(picnicFee);
-console.log(friendsNmae);
+console.log(friendsName);
 
 //get elements
 var elements = friendsAge[5];
@@ -37,5 +37,5 @@ picnicFee.slice(2, 4);
 console.log(picnicFee);
 
 //Includes elements
-friendsNmae.includes('Tarek');
-console.log(friendsNmae);
+friendsName.includes('Tarek');
+console.log(friendsName);
