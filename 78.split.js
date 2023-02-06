@@ -1,14 +1,21 @@
 const lyrics = 'Tumi bondhu kala Pakhi ami jeno ki. bosonto kale tomai bolte pari ni. kala kala sada sada';
+
 const parts = lyrics.split(' ');
+console.log(parts);
+
 const sentences = lyrics.split('.')
+console.log(sentences);
+
 const chars = lyrics.split('');
-// console.log(chars);
+console.log(chars);
+
+//Slice
 
 const partial = lyrics.slice(5, 8);
+console.log(partial);
 
-// console.log(partial);
 const partial2 = lyrics.substring(5, 8);
-// console.log(partial2);
+console.log(partial2);
 
 const lines = [
     'Tumi bondhu kala Pakhi ami jeno ki',
