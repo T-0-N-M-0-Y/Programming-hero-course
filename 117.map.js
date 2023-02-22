@@ -1,4 +1,4 @@
-const numbers = [2, 8, 4, 6, 3];
+const numbers1 = [2, 8, 4, 6, 3];
 
 
 function getDoubles(numbers) {
